@@ -25,3 +25,14 @@ class Twofer {
 //         return "One for " + (name == null ? "you" : name) + ", one for me.");
 //     }
 // }
+
+//Diff approach 3:
+// class Twofer {
+//     String twofer(String name) {
+//         if (name == null || name.equals("")) {
+//             name = "you";
+//         }
+
+//         return new StringBuilder("One for ").append(name).append(", one for me.").toString();
+//     }
+// }
